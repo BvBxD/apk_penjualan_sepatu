@@ -44,7 +44,7 @@ public class Home extends AppCompatActivity {
         datacustomer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent datacustomer = new Intent(Home.this,HalDataCustomer.class);
+                Intent datacustomer = new Intent(Home.this,HalInputDataCustomer.class);
                 startActivity(datacustomer);
             }
         });

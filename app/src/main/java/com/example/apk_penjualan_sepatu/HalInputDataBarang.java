@@ -29,6 +29,8 @@ public class HalInputDataBarang extends AppCompatActivity {
         warna = (EditText) findViewById(R.id.et_warna);
         ukuran = (EditText) findViewById(R.id.et_ukuran);
         harga = (EditText) findViewById(R.id.et_harga);
+        reset1 = (Button) findViewById(R.id.btn_reset1);
+        proses1 = (Button) findViewById(R.id.btn_proses1);
 
         //fungsi klik, intent, parcel
         reset1.setOnClickListener(new View.OnClickListener() {
